@@ -1,0 +1,51 @@
+$windowsbarHeight: 24px;
+
+.window {
+    display: inline-block;
+    padding-top: $windowsbarHeight;
+    position: absolute;
+    left: 25vw;
+    top: 25vh;
+    background-color: purple;
+    border: 1px solid rebeccapurple;
+
+    &--hidden {
+        display: none;
+    }
+
+    &::before {
+        cursor: pointer;
+        position: absolute;
+        left: 0;
+        top: 0;
+        content: '';
+        width: 100%;
+        height: $windowsbarHeight;
+        background-color: plum;
+
+        &:hover {
+            background-color: rosybrown;
+        }
+    }
+}
+
+.close-btn {
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    width: $windowsbarHeight - 4px;
+    background-color: royalblue;
+    color: white;
+}
+
+.desktop {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000080;
+    overflow: hidden;
+    touch-action: none;
+}
+
+.windowinside{
+    padding: 15px;
+}

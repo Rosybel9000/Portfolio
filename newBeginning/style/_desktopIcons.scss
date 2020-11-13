@@ -1,0 +1,15 @@
+.iconSnake{
+    src:"./style/media/snek.png";
+    alt: "snake.exe";
+    // title: snake the game
+    // display: flex;
+    // flex-direction: column;
+    cursor: pointer;
+
+    display: inline-block;
+
+
+    &:hover {
+        background-color: red;
+    }
+}

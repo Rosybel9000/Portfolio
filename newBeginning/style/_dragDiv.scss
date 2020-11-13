@@ -1,0 +1,21 @@
+#mydiv {
+    position: absolute;
+    top: 20rem;
+    left: 35rem;
+    z-index: 998;
+    background-color: #00FF00;
+    // text-align: center;
+    border: 1px double #000080;
+    display: block;
+    // width: 25rem;
+  }
+  
+  #mydivheader {
+    width: 25rem;
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    background-color: #0000ff;
+    color: #fff;
+    border: 5px solid purple; 
+  }
