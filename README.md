@@ -1,2 +1,2 @@
 # Portfolio
-Dit is mijn portfolio yes
+This is mijn portfolio yes
